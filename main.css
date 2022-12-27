@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    height: 55px;
+    width:100%;
+    background-color:black;
+    padding-left: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.avatar{
+    width:48px;
+}
+.top-container{
+    width: 100%;
+    height:700px;
+    background-color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-container{
+    width:100%;
+    height:700px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tagline{
+    position: relative;
+    left:70px;  
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    padding: 10px;
+    font-size: 60px;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+.skill-image-hacking{
+    width:160px;
+    float: left;
+}
+.skill-image-web{
+    width:160px;
+    float: right;
+}
+h2{
+    padding-top: 10px;
+}
+.hacking-skill{
+    position: absolute;
+    padding-top: 64px;
+}
+.skill-content{
+    position: relative;
+    top:15px;
+}
+.web-skill{
+    position: absolute;
+    padding-top: 281px;
+}
+.hacking-skill2{
+    position: absolute;
+    top: 1179px;
+
+}
+.footer-container{
+    width:100%;
+    height:45px;
+    background-color: #D3CEDF;
+    position: sticky;
+
+}
+@media only screen and (max-width: 1000px){
+    .footer-container{
+        width:100%;
+        height:45px;
+        background-color: #D3CEDF;
+        position: absolute;
+        bottom:0;
+    
+    }
+}
